@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.hellfire.speak2send"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<EditText android:id="@+id/body" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:scrollbars="vertical" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:capitalize="sentences"
+		android:padding="5dip" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<ImageButton android:id="@+id/confirm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/save"
+			android:layout_weight="1" />
+
+		<ImageButton android:id="@+id/speak" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/speak"
+			android:layout_weight="1" />
+
+		<ImageButton android:id="@+id/send" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/share"
+			android:layout_weight="1" />
+
+	</LinearLayout>
+
+	<com.admob.android.ads.AdView android:id="@+id/ad"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC" 
+		myapp:keywords="Android"
+		myapp:refreshInterval="30" />
+
+</LinearLayout>

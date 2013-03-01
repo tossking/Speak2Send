@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.hellfire.speak2send"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/export_content"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="20dip" android:text="@string/export_text" />
+	<Button android:id="@+id/export_email" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/export_email"
+		android:layout_weight="1" />
+	<Button android:id="@+id/export_ok" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/export_ok"
+		android:layout_weight="1" />
+</LinearLayout>
