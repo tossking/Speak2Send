@@ -33,6 +33,6 @@
 		myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
 		myapp:secondaryTextColor="#CCCCCC" 
 		myapp:keywords="Android"
-		myapp:refreshInterval="30" />
+		myapp:refreshInterval="120" />
 
 </LinearLayout>

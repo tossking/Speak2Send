@@ -4,8 +4,7 @@
 	android:layout_width="fill_parent" android:layout_height="fill_parent">
 		<ListView android:id="@+id/android:list"
 			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			android:divider="#00FFFF" android:dividerHeight="2dip"
-			android:fastScrollEnabled="true" />
+			android:divider="#00FFFF" android:dividerHeight="2dip"/>
 		<TextView android:id="@+id/android:empty"
 			android:layout_width="fill_parent" android:layout_height="wrap_content"
 			android:text="@string/no_notes" android:textSize="25dip" />
