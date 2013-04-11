@@ -17,7 +17,7 @@
 <string name="about_title">關於</string>
 <string name="no_voice">缺少語音識別</string>
 <string name="start_voice">开始語音輸入</string>
-<string name="about_text">&quot;Speak2Send 1.4版是一個簡單的語音輸入記事本，可以把记录發送到系统里的其他应用程序，比如短信、 Email、 Twitter、 FaceBook等。 \n以後將增加更多的功能哦。\n長按記錄將其刪除。 \n此程序需要Google語音搜索的支持，如果沒有安裝Google語音搜索，則語音輸入按鈕會出現'缺少語音識別'。此時請先安裝Google語音搜索，您可以從\nhttp://tetrisdroid.googlecode.com/file/voicesearch.zip\n下載安裝包。 \n谷歌的語音識別服務器目前支持英語、漢語和日語，這3種語言可以使用語音輸入。\n如果您有任何建議或意見，請發送郵件到tossking@gmail.com。 \n程序的圖標是小雲設計的，非常感謝她這只可愛的小兔子:&gt;。\n感謝您使用我做的小程序：）。&quot;</string>
+<string name="about_text">&quot;Speak2Send 1.4.1版是一個簡單的語音輸入記事本，可以把记录發送到系统里的其他应用程序，比如短信、 Email、 Twitter、 FaceBook等。 \n以後將增加更多的功能哦。\n長按記錄將其刪除。 \n此程序需要Google語音搜索的支持，如果沒有安裝Google語音搜索，則語音輸入按鈕會出現'缺少語音識別'。此時請先安裝Google語音搜索，您可以從\nhttp://tetrisdroid.googlecode.com/file/voicesearch.zip\n下載安裝包。 \n谷歌的語音識別服務器目前支持英語、漢語和日語，這3種語言可以使用語音輸入。\n如果您有任何建議或意見，請發送郵件到tossking@gmail.com。 \n程序的圖標是小雲設計的，非常感謝她這只可愛的小兔子:&gt;。\n感謝您使用我做的小程序：）。&quot;</string>
 <string name="menu_export">導出到SD卡</string>
 <string name="export_title">導出筆記</string>
 <string name="export_text">導出筆記文件到\n</string>

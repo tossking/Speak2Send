@@ -20,7 +20,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 public class NoteEdit extends Activity {
-
 	private static final String TAG = "Speak2Send NoteEdit";
 	private static final int VOICE_RECOGNITION_REQUEST_CODE = 1234;
 	private static final int SEND_ALL_ACTIVITY_REQUEST_CODE = 5678;
@@ -38,7 +37,7 @@ public class NoteEdit extends Activity {
 		mDbHelper.open();
 
 		setContentView(R.layout.note_edit);
-
+		
 		mBodyText = (EditText) findViewById(R.id.body);
 
 		ImageButton speakButton = (ImageButton) findViewById(R.id.speak);
@@ -133,13 +132,9 @@ public class NoteEdit extends Activity {
 			// 取得语音的字符
 			ArrayList<String> matches = data
 					.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-//for android 2.1 & 2.2
-//			String s = matches.toString();
+
 			String s = matches.get(0).toString();
-/*			if (s.length() >= 2) {
-//				s = s.substring(1, matches.get(0).toString().length()-1);
-				s = s.substring(1, s.length()-1);
-			}*/
+
 			mBodyText.setText(mBodyText.getText().toString() + s + "\n");
 			saveState();
 		}

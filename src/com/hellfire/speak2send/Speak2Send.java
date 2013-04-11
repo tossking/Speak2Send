@@ -49,7 +49,7 @@ public class Speak2Send extends ListActivity {
 		// lv.setTextFilterEnabled(true);
 		registerForContextMenu(lv);
 	}
-
+	
 	private void fillData() {
 		// Get all of the rows from the database and create the item list
 		Cursor notesCursor = mDbHelper.fetchAllNotes();
